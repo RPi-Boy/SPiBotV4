@@ -9,7 +9,7 @@ screen= pygame.display.set_mode((400,400))
 done=False
 while not done:
     for event in pygame.event.get():
-        if event.type==pygme.QUIT:
+        if event.type==pygame.QUIT:
             done=true
         elif event.type == pygame.KEYDOWN:
             if event.key==pygame.K_w:
